@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+
+body{
+    font-family: 'Outfit','sans-serif';
+    background-color: hsl(217, 54%, 11%);
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-size: 18px;
+    gap: 2em 0;
+}
+
+
+.container{
+    width: 375px;   
+}
+
+.card{
+    padding:20px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 10px ;
+    margin: 0 2em;
+    
+}
+
+.card img{
+    border-radius: 9px;
+    max-width: 100%;
+}
+
+.card p:first-of-type{
+    color: #ffffff82;
+    font-weight: 100;
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+hr{
+    border-color: #ffffffaa;
+    
+}
+
+
+.price-time {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 5px;
+}
+  
+.price-time span{
+   position: relative;
+   top: -3.5px;
+   margin-left: 2px;
+   font-size: 15px ;
+   font-weight: 100;
+}
+
+
+.author{
+    display: flex;
+    align-items: center;
+    
+}
+.author-image{
+    width: 35px;
+    height: 35px;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
+
+.author-text{
+    position: relative;
+    left: 8px;
+    font-size: 15px;
+    color:#ffffff82;
+
+}
+.author-text span{
+    color:#fff;
+}
